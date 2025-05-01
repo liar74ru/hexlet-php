@@ -1,5 +1,14 @@
 {
     "name": "liar74ru/hexlet",
-    "description": "ручhexlet-php",
-    "require": {}
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.12"
+    },
+    "scripts": {
+        "phpcs": "phpcs"   
+    }
 }
